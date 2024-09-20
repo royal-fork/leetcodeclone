@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    height: 10%;
+    width: 100%; /* Add % for width */
+    background-color: rgb(250, 250, 255);
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding: 0 20px; /* Add some padding */
+    box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+}
+
+
+
+.imagepfp img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.shakeme img{
+    animation: shake 0.5s ease infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 0); }
+    25% { transform: translate(-1px, 0); }
+    50% { transform: translate(1px, 0); }
+    75% { transform: translate(-1px, 0); }
+    100% { transform: translate(1px, 0); }
+}
+nav div {
+    margin-left: 20px;
+    color: rgb(7, 7, 7);
+    position: relative; /* Required for absolute positioning of dropdown */
+}
+
+.dropdown {
+    cursor: pointer; /* Change cursor to pointer */
+    height: 20px;
+}
+
+.dropdown-content {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position it relative to the parent */
+    background-color: white;
+    color: black; /* Text color for dropdown items */
+    min-width: 100px; /* Set a minimum width */
+    z-index: 1; /* Ensure it appears above other content */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown on hover */
+}
+
+.dropdown-content a {
+    padding: 10px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Make links block elements */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+}
+
+.rightside{
+    padding-left: 550px;
+}
+.ri-arrow-down-s-line{
+    padding: 20px;
+}
+
+
+.sorry{
+    background-color: rgb(255,244,227);
+    border-radius: 4px;
+    color: rgb(255,161,22);
+    height: 30px;
+    width: 80px;
+    border: none;
+  
+}
+.premium-button:focus {
+    outline: none; /* Remove focus outline */
+}
+.page1{
+    height: 90%;
+    width: 100%;
+   display: flex;
+    background-color: rgb(255, 255, 255);
+}
+.a{
+  height: 100%;
+  width: 10%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+}
+.b{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(241, 241, 241);
+
+}
+.c{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(250, 248, 248);
+    padding-top: 30px;
+    align-items: center;
+    
+}
+.c img{
+   
+    border-radius: 30px;
+    height: 180px;
+    padding: 20px;
+    margin-left:50px ;
+    
+}
+.d{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.contestinfo1{
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height: 10%;
+    padding-top: 2.5%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+    
+}
+.contestinfo2{
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height: 10%;
+    padding-top: 2.5%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+}
+.premium{
+    background-color: rgb(255,255,255);
+    width: 100%;
+    height: 30%;
+    box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+    display: flex;
+}
+.userpost{
+    background-color: rgb(254, 255, 252);
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 4px 8px rgba(31, 4, 4, 0.603); /* Drop shadow */
+}
+.ri-trophy-fill{
+ color: rgb(254,173,18);
+ padding-left: 6%;
+ font-size: 30px; 
+ 
+ 
+
+}
+.light{
+font-style: italic;
+font-weight: lighter;
+font-size: small;
+color: grey;
+}
+.hey{
+    padding-left: 10%;
+    padding-top: 2%;
+    
+}
+
+
